@@ -164,3 +164,27 @@
 # print("删除下标为偶数的元素后为：" + str(list))
 # list.sort(reverse=True)
 # print("表由大到小排序:" + str(list))
+
+# # 使用while循环遍历列表和元组
+# a_tuple = ('fkit', 'crazyit', 'Charli')
+# i = 0
+# # 只有i小于len(a_list)，继续执行循环体
+# while i < len(a_tuple):
+#     print(a_tuple[i],end=" ")  # 根据i来访问元组的元素
+#     i += 1
+
+# 元组
+tup = (1, 4, 5, (1, 3, 5, 6, (8, 9, 10, 12)))
+print(len(tup))
+print(type(tup[1]))
+print(type(tup[3]))
+print(tup[3][4])
+print(tup[3][4][1])
+# a = tup[3][4].append([5, 6])
+# print(a)
+print(tup[-1][-1][-2])
+print(tup[-2])
+print(len(tup[-1]))
+print(len(tup[-1][-1]))
+print(tup[-1][1:3])
+print(tup[-1][-1][1:2])
