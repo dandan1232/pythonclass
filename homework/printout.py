@@ -126,6 +126,7 @@
 4、让列表由大到小排序，然后输出。
 '''
 
+
 # 法一
 # list = []
 # list.append(1)
@@ -188,3 +189,25 @@
 # print(len(tup[-1][-1]))
 # print(tup[-1][1:3])
 # print(tup[-1][-1][1:2])
+#
+# def cal(num1, num2, operation='+'):
+#     if operation == '+':
+#         return num1 + num2
+#     elif operation == '-':
+#         return num1 - num2
+#     elif operation == '*':
+#         return num1 * num2
+#     elif operation == '/':
+#         if num2 == 0:
+#             return '除数不能为0'
+#         else:
+#             return num1 / num2
+#     else:
+#         return '该函数不能为此数'
+#
+# num1 = int(input("请输入第一个整数："))
+# num2 = int(input("请输入第二份整数："))
+# print('num1+num2=', cal(num1, num2))
+# print('num1-num2=', cal(num1, num2, '-'))
+# print('num1*num2=', cal(num1, num2, '*'))
+# print('num1/num2=', cal(num1, num2, '/'))
