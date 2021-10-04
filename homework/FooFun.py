@@ -60,7 +60,7 @@ def timefun_arg(pre="ldd"):
     return timefun
 
 
-@timefun_arg("xz")
+@timefun_arg(pre="xz")
 def foo():
     print("python难不难啊我的小笨脑袋瓜学不会")
 

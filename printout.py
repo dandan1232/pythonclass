@@ -126,7 +126,6 @@
 4、让列表由大到小排序，然后输出。
 '''
 
-
 # 法一
 # list = []
 # list.append(1)
@@ -211,3 +210,17 @@
 # print('num1-num2=', cal(num1, num2, '-'))
 # print('num1*num2=', cal(num1, num2, '*'))
 # print('num1/num2=', cal(num1, num2, '/'))
+
+func = lambda x: x % 3
+list_test = list(range(1, 101))
+result = filter(func, list_test)
+print(list(result))
+
+list1 = list(map(lambda x, y: [x, y], [1, 2, 3], [2, 2, 3]))
+print(list1)
+
+from functools import reduce
+
+func2 = lambda x, y: x * y
+result = reduce(func2, [1, 2, 3, 4, 5])
+print(result)
