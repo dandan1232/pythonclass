@@ -23,23 +23,47 @@
 #
 # foo(3, 5)
 
-
-def timefun(func):
-    def inner(a, b):
-        ticks = time.time()
-        print("函数调用时间：", ticks)
-        return func(a, b)
-
-    return inner
+#
+# def timefun(func):
+#     def inner(a, b):
+#         ticks = time.time()
+#         print("函数调用时间：", ticks)
+#         return func(a, b)
+#
+#     return inner
+#
+#
+# import time
+#
+#
+# @timefun
+# def foo(a, b):
+#     print(a+b)
+#     return a + b
+#
+#
+# foo(1, 2)
 
 
 import time
 
 
-@timefun
-def foo(a, b):
-    print(a+b)
-    return a + b
+def timefun_arg(pre="ldd"):
+    def timefun(func):
+        def wrappedfunc():
+            print("函数名称%s，调用时间%s，参数的值%s" % (func.__name__, time.ctime(), pre))
+
+            return func()
+
+        return wrappedfunc
+
+    return timefun
 
 
-foo(1, 2)
+@timefun_arg("xz")
+def foo():
+    print("python难不难啊我的小笨脑袋瓜学不会")
+
+
+foo()
+
