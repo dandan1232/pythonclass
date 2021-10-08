@@ -2,7 +2,7 @@
 # @Time    : 2021/9/18 11:21
 # @Author  : Lindand
 # @File    : isPrimeNum.py
-# @Description :
+# @Description :判断是否为素数
 
 from math import sqrt;
 

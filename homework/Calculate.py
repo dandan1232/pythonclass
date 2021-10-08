@@ -2,7 +2,7 @@
 # @Time    : 2021/9/18 8:36
 # @Author  : Lindand
 # @File    : Calculate.py
-# @Description :
+# @Description :计算两个数的和差积
 
 num1 = float(input("输入num1:"))
 num2 = float(input("输入num2:"))

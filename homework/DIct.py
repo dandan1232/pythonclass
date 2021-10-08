@@ -2,7 +2,7 @@
 # @Time    : 2021/9/17 14:48
 # @Author  : Lindand
 # @File    : DIct.py
-# @Description :
+# @Description :字典取值itcast并删除2和6的字母
 
 dic = {'1': 'i', '2': 't', '3': 'c', '4': 'a', '5': 's', '6': 't'}
 print(dic)

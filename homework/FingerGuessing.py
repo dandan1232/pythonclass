@@ -2,7 +2,7 @@
 # @Time    : 2021/9/18 8:14
 # @Author  : Lindand
 # @File    : FingerGuessing.py
-# @Description :
+# @Description :和机器的石头剪刀布
 
 import random
 human = int(input("随机输入一个0-2的数:"))

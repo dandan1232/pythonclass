@@ -2,7 +2,7 @@
 # @Time    : 2021/10/4 8:25
 # @Author  : Lindand
 # @File    : Func.py
-# @Description :
+# @Description :悟空吃桃子（装饰器）
 
 def 炼丹炉(func):
     def 变身(*args, **kwargs):

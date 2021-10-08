@@ -2,10 +2,12 @@
 # @Time    : 2021/9/24 14:55
 # @Author  : Lindand
 # @File    : Operation.py
-# @Description :定义一个用于计算的函数，请按照以下要求完成。
+# @Description :
+'''定义一个用于计算的函数，请按照以下要求完成。
 # 1)函数有3个参数，operation默认值为“+”，只能接收“-”、“*”和“/”符号；num1和num2分别用于接收整数。
 # 2)使用if-elif语句判断，如果为“+”，返回num1和num2的和；如果为“-”，返回num1和num2的差，以此类推。
 # 3)注意，处理num2不为0的情况。
+'''
 
 
 def cal(num1, num2, operation='+'):

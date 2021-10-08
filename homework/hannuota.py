@@ -2,7 +2,7 @@
 # @Time    : 2021/10/8 13:53
 # @Author  : Lindand
 # @File    : hannuota.py
-# @Description :
+# @Description :汉诺塔的递归
 
 count = 0
 

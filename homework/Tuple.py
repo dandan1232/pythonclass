@@ -2,7 +2,7 @@
 # @Time    : 2021/9/17 14:04
 # @Author  : Lindand
 # @File    : Tuple.py
-# @Description :
+# @Description :元组相加、取最大最小
 
 
 tup1 = (6, 7, 8, 9, 0);

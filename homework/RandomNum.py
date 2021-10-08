@@ -2,7 +2,7 @@
 # @Time    : 2021/9/27 10:27
 # @Author  : Lindand
 # @File    : RandomNum.py
-# @Description :
+# @Description :10次随机数生成
 
 import random
 

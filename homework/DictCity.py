@@ -2,7 +2,7 @@
 # @Time    : 2021/9/17 14:58
 # @Author  : Lindand
 # @File    : DictCity.py
-# @Description :
+# @Description :字典城市、国家和人口数
 
 cities = {
     'SuZhou': {

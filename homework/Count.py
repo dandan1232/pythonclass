@@ -2,7 +2,7 @@
 # @Time    : 2021/9/24 14:56
 # @Author  : Lindand
 # @File    : Count.py
-# @Description :
+# @Description :函数内外全局变量
 
 count = 10
 

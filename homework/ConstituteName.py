@@ -2,7 +2,7 @@
 # @Time    : 2021/9/13 9:39
 # @Author  : Lindand
 # @File    : ConstituteName.py
-# @Description :
+# @Description :我叫林丹丹，我的学号是1902343231，今天是2021年12月20日，我在学习有趣又有用的python程序设计
 
 data = input("请输入一个日期，格式为:年/月/日:")
 name = "林丹丹"

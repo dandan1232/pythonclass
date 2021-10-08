@@ -2,7 +2,7 @@
 # @Time    : 2021/9/13 9:39
 # @Author  : Lindand
 # @File    : ExtractDomain.py
-# @Description :
+# @Description :取出域名和用户名，将用户名密码加密
 
 str = "http://www.niit.edu.cn?userName=admin&pwd=123456"
 print("域名：" + str[7:22])

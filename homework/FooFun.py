@@ -2,7 +2,9 @@
 # @Time    : 2021/10/4 8:44
 # @Author  : Lindand
 # @File    : FooFun.py
-# @Description :
+# @Description :装饰器：
+# 函数名称foo，调用时间Fri Oct  8 14:53:06 2021，参数的值xz
+# python难不难啊我的小笨脑袋瓜学不会
 
 # import time
 #

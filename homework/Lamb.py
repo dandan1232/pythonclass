@@ -2,7 +2,7 @@
 # @Time    : 2021/9/27 9:39
 # @Author  : Lindand
 # @File    : Lamb.py
-# @Description :
+# @Description :判断三边是否能够构成三角形
 
 a = float(input("a:"))
 b = float(input("b:"))
