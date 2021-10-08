@@ -11,15 +11,18 @@ def say_hello(country):
     def wrapper(func):
         def deco(*args, **kwargs):
             if country == "china":
-                print("来自中国:")
+
                 print("你好!")
             elif country == "america":
-                print("Come from America:")
+
                 print('hello!')
             else:
                 return
-                func(*args, **kwargs)
+            # 真正执行函数的地方
+            func(*args, **kwargs)
+
         return deco
+
     return wrapper
 
 
@@ -27,9 +30,11 @@ def say_hello(country):
 def chinese():
     print("我来自中国。")
 
+
 @say_hello("america")
 def american():
     print("I am from America.")
+
 
 chinese()
 print("——————————————————————————")
