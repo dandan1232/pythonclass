@@ -16,12 +16,28 @@ class Demo:
 
     def __str__(self):
         return ("data1 =%d,data2=%d" % (self.__data1, self.__data2))
-
     def __repr__(self):
         return ("repr data1 =%d,data2=%d" % (self.__data1, self.__data2))
-
+    def __add__(self, other):
+        temp = Demo()
+        temp.__data1 = self.__data1 + other.__data1
+        temp.__data2 = self.__data2 + other.__data2
+        return temp
+    def __mul__(self, other):
+        temp = Demo()
+        temp.__data1 = self.__data1 * other.__data1
+        temp.__data2 = self.__data2 * other.__data2
+        return temp
+    def __lt__(self, other):
+        if self.__data1 < other.__data1:
+            return True
+        elif self.__data1 == other.__data1 and self.__data2 < other.__data2:
+            return True
+        return False
 
 demo = Demo()
 demo.set(200)
+
 print(str(demo))
 print(repr(demo))
+
