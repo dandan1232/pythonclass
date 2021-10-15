@@ -18,34 +18,26 @@ class Animal(object):
     def talk(self):
         print("说话")
 
-
 class Cat(Animal):
     def talk(self):
         print("Meow!")
-
 
 class Dog(Animal):
     def talk(self):
         print("Woof!Woof!")
 
-
 def animal_talk(animal):
     animal.talk()
-
-
+animal=Animal()
 c = Cat()
 d = Dog()
 # 调用了Animal下的animal_talk方法，将c传给animal_talk
 # 又调用了Dog下的talk（），相当于c.talk（）
+animal_talk(animal)
 animal_talk(c)
 animal_talk(d)
-
-
 class frog(Animal):
     def talk(self):
         print("Croak! Croak!")
-
-
 f = frog()
-
 animal_talk(f)
