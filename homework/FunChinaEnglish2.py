@@ -28,7 +28,7 @@ class Contry():
             # 真正执行函数的地方
             func(*args, **kwargs)
 
-        return wrapper()
+        return wrapper
 
 
 @Contry("china")
@@ -41,6 +41,6 @@ def american():
     print("I am from America.")
 
 
-chinese
+chinese()
 print("--------------")
-american
+american()
